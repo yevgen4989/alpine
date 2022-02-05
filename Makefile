@@ -2,7 +2,7 @@
 
 ALPINE_VER ?= 3.15.0
 
-REPO = wodby/alpine
+REPO = yevgen4989/alpine
 NAME = alpine-$(ALPINE_VER)
 
 PLATFORM ?= linux/amd64
