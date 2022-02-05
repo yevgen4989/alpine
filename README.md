@@ -1,23 +1,23 @@
 # Alpine Docker Container Image
 
-[![Build Status](https://github.com/wodby/alpine/workflows/Build%20docker%20image/badge.svg)](https://github.com/wodby/alpine/actions)
-[![Docker Pulls](https://img.shields.io/docker/pulls/wodby/alpine.svg)](https://hub.docker.com/r/wodby/alpine)
-[![Docker Stars](https://img.shields.io/docker/stars/wodby/alpine.svg)](https://hub.docker.com/r/wodby/alpine)
+[![Build Status](https://github.com/yevgen4989/alpine/workflows/Build%20docker%20image/badge.svg)](https://github.com/yevgen4989/alpine/actions)
+[![Docker Pulls](https://img.shields.io/docker/pulls/yevgen4989/alpine.svg)](https://hub.docker.com/r/yevgen4989/alpine)
+[![Docker Stars](https://img.shields.io/docker/stars/yevgen4989/alpine.svg)](https://hub.docker.com/r/yevgen4989/alpine)
 
-This is a basic alpine image used in Wodby's docker images
+This is a basic alpine image used in docker images
 
 ## Docker Images
 
-❗For better reliability we release images with stability tags (`wodby/alpine:3-X.X.X`) which correspond to [git tags](https://github.com/wodby/alpine/releases). We strongly recommend using images only with stability tags. 
+❗For better reliability we release images with stability tags (`yevgen4989/alpine:3-X.X.X`) which correspond to [git tags](https://github.com/yevgen4989/alpine/releases). We strongly recommend using images only with stability tags. 
 
 About images:
 
 * All images based on Alpine Linux
 * Base image: [alpine](https://hub.docker.com/r/_/alpine)
-- [GitHub actions builds](https://github.com/wodby/alpine/actions) 
-* [Docker Hub](https://hub.docker.com/r/wodby/alpine) 
+- [GitHub actions builds](https://github.com/yevgen4989/alpine/actions) 
+* [Docker Hub](https://hub.docker.com/r/yevgen4989/alpine) 
 
-[_(Dockerfile)_]: https://github.com/wodby/alpine/tree/master/Dockerfile
+[_(Dockerfile)_]: https://github.com/yevgen4989/alpine/tree/master/Dockerfile
 
 Supported tags and respective `Dockerfile` links:
 
@@ -42,4 +42,4 @@ This image contains the following helper scripts:
 * `gpg_decrypt` - decrypt an artifact that contains GPG signature
 * `wait_for` - executes a command with for N times with N timeout until it return 0
 
-See [`test.sh`](https://github.com/wodby/alpine/blob/master/test.sh) for examples.
+See [`test.sh`](https://github.com/yevgen4989/alpine/blob/master/test.sh) for examples.
