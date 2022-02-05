@@ -4,7 +4,7 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/yevgen4989/alpine.svg)](https://hub.docker.com/r/yevgen4989/alpine)
 [![Docker Stars](https://img.shields.io/docker/stars/yevgen4989/alpine.svg)](https://hub.docker.com/r/yevgen4989/alpine)
 
-This is a basic alpine image used in Wodby's docker images
+This is a basic alpine image used in docker images
 
 ## Docker Images
 
